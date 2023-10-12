@@ -1,4 +1,4 @@
-# estudo-servless-framework-framework
+# estudo-serverless-framework-framework
 
 ## tutorial-serverless-node-offline
 
