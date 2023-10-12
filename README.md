@@ -9,6 +9,14 @@ npm install -g serverless
 
 # executa a lambda
 serverless invoke local -f hello
+
+# executa a lambda passando objeto como event para lambda
+serverless invoke local -f hello --data '{"a":"bar"}'
+
+# executa a lambda passando objeto e uma variável
+serverless invoke local -f hello \
+--data '{"a":"bar"}' \
+-e VAR1='algum valor'
 ```
 
 ## Links
