@@ -148,3 +148,5 @@ __pycache__
 
 # vscode
 *.vscode
+python-localstack-serverless/result.txt
+python-localstack-serverless/volume
