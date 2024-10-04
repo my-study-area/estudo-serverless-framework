@@ -1,6 +1,22 @@
 # estudo-serverless-framework
 
 ## tutorial-serverless-node-offline
+- Node: v20.17.0
+- NPM: 10.8.2
+
+```bash
+# entra no diretório
+cd tutorial-servless-node-offline/
+
+# instala as dependências
+npm install
+
+# inicie o serverless e caso necessário realize o seu login na plataforma
+npx sls offline
+
+# execute a lambda
+curl 'http://localhost:3000/dev/hi'
+```
 
 ## python example
 ```bash
@@ -49,7 +65,7 @@ aws lambda invoke \
 ```
 
 ## Links
-- [Como construir uma API poderosa com Node.js, Serverless e Lambda](https://how.kovi.work/construindo-uma-aplica%C3%A7%C3%A3o-serverless-do-zero-cd0d70527d61)
+- [Como construir uma API poderosa com Node.js, Serverless e Lambda](https://medium.com/building-kovi/construindo-uma-aplica%C3%A7%C3%A3o-serverless-do-zero-cd0d70527d61)
 - [Local development with Serverless](https://towardsaws.com/local-development-with-serverless-46a219876a67)
 - [serverless invoke local](https://www.serverless.com/framework/docs/providers/aws/cli-reference/invoke-local)
 - [Usando LocalStack junto com Serverless Framework: Um guia passo a passo](https://www.linkedin.com/pulse/usando-localstack-junto-com-serverless-framework-um-guia-felipe/?originalSubdomain=pt)
