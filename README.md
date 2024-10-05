@@ -1,4 +1,8 @@
 # estudo-serverless-framework
+![GitHub top language](https://img.shields.io/github/languages/top/my-study-area/estudo-serverless-framework)
+![Terraform Version](https://img.shields.io/badge/Terraform-v1.6.4-blue.svg)
+[![Repository size](https://img.shields.io/github/repo-size/my-study-area/estudo-serverless-framework)](https://img.shields.io/github/repo-size/my-study-area/estudo-serverless-framework)
+[![Last commit](https://img.shields.io/github/last-commit/my-study-area/estudo-serverless-framework)](https://github.com/my-study-area/estudo-serverless-framework/commits/master)
 
 ## tutorial-serverless-node-offline
 - Node: v20.17.0
